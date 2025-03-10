@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+}
+
+nav {
+    background: rgb(77, 73, 73);
+    padding: 1rem;
+}
+
+nav a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.crypto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.crypto-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.crypto-card img {
+    width: 50px;
+    height: 50px;
+}
